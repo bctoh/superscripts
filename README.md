@@ -1,5 +1,11 @@
 # Super Scripts
 > A bunch of scripts you can copy and paste into your command line to do the job for you ;)
+> 
+> ## Usage
+> - Download/clone `ss.sh` file and place in root of project folder
+> - Click on `ss.sh` file and hit `cmd + i` to get information
+> - On the bottom right of the bar, click the lock icon to unlock. It will prompt for your computer's password
+> - On the command line, navigate to the root of your project and punch in `chmod 700 ss.sh` to give the bash file permissions
 
 ## Organise CSS directory
 This command performs the following for a Rails project:
@@ -7,4 +13,5 @@ This command performs the following for a Rails project:
 - Creates all the `sass` files required according to MIA standard
 - Converts `application.css` to a sass file
 - Imports all the new files into `application.css.sass`
-```mkdir app/assets/stylesheets/styles && touch app/assets/stylesheets/styles/ _00_fontface.sass app/assets/stylesheets/styles/_00_variables.sass app/assets/stylesheets/styles/_10_layout.sass app/assets/stylesheets/styles/_10_typography.sass app/assets/stylesheets/styles/_20_animations.sass app/assets/stylesheets/styles/_20_buttons.sass app/assets/stylesheets/styles/_20_icons.sass app/assets/stylesheets/styles/_20_links.sass app/assets/stylesheets/styles/_30_footer.sass app/assets/stylesheets/styles/_30_nav.sass app/assets/stylesheets/styles/_40_home.sass && mv app/assets/stylesheets/application.css app/assets/stylesheets/application.css.sass && printf "\n@import './styles/*'" >> app/assets/stylesheets/application.css.sass```
+*Command*
+`./ss.sh css`
