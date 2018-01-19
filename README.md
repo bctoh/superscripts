@@ -1,9 +1,6 @@
 # Super Scripts
 > A bunch of scripts you can run in your command line to do the job for you ;)
 
-## Contributors
-Project owner & starter: [@briantoh](https://github.com/bctoh/)
-
 ## Usage
 - Download/clone/fork `ss.sh` file and place in root of project folder
 - Click on `ss.sh` file and hit `cmd + i` to get information
@@ -18,14 +15,28 @@ This command performs the following for a Rails project:
 - Converts `application.css` to a sass file
 - Imports all the new files into `application.css.sass`
 
-*Command*
-
-`./ss.sh css`
+**Command:** `./ss.sh css`
 
 ### Drop, create, migrate and seed your database
 This command performs the following:
 - `rails db:drop db:create db:migrate db:seed`
 
-*Command*
+**Command:** `./ss.sh rdb`
 
-`./ss.sh rdb`
+## Contribution
+Please ensure your pull request adheres to the following guidelines:
+
+- Follow existing format when adding a new task
+- Comment above your new task in `ss.sh` with the name of your task
+- Update the README with what your task does and what the command is for running it
+- Search previous suggestions before making a new one, as yours may be a duplicate.
+- Make an individual pull request for each suggestion.
+- Keep descriptions short and simple.
+- Check your spelling and grammar.
+- Try to make your pull request and title descriptive but concise.
+- Please label your PRs [semantically](https://seesparkbox.com/foundry/semantic_commit_messages) by adding a tag at the start of your pull request title. i.e. (feat), (chore), (docs) etc
+
+## License
+
+Superscripts is a free software, and may be redistributed under the terms specified in the
+[LICENSE](/LICENSE) file. Feel free to give me a shout on [twitter](https://twitter.com/briantoh) if you use it :)
