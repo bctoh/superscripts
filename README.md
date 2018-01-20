@@ -9,19 +9,21 @@
 - To run a task, use `./ss.sh {{ taskName }}` e.g. `./ss.sh css`
 
 ### Organise CSS directory
+**Command:** `./ss.sh css`
+
 This command performs the following for a Rails project:
 - Creates a `styles` folder in `app/assets/stylesheets/`
 - Creates all the `sass` files required according to MIA standard
 - Converts `application.css` to a sass file
 - Imports all the new files into `application.css.sass`
 
-**Command:** `./ss.sh css`
 
 ### Drop, create, migrate and seed your database
+**Command:** `./ss.sh rdb`
+
 This command performs the following:
 - `rails db:drop db:create db:migrate db:seed`
 
-**Command:** `./ss.sh rdb`
 
 ## Contribution
 Please ensure your pull request adheres to the following guidelines:
