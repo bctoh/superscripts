@@ -10,7 +10,7 @@ if [ $# -gt 0 ]; then
 		echo "*** Creating styles folder in stylesheets directory ***"
 		mkdir app/assets/stylesheets/styles
 		echo "*** Generating sass files ***"
-		touch app/assets/stylesheets/styles/_00_fontface.sass app/assets/stylesheets/styles/_00_variables.sass app/assets/stylesheets/styles/_10_layout.sass app/assets/stylesheets/styles/_10_typography.sass app/assets/stylesheets/styles/_20_animations.sass app/assets/stylesheets/styles/_20_buttons.sass app/assets/stylesheets/styles/_20_icons.sass app/assets/stylesheets/styles/_20_links.sass app/assets/stylesheets/styles/_30_footer.sass app/assets/stylesheets/styles/_30_nav.sass app/assets/stylesheets/styles/_40_home.sass
+		touch app/assets/stylesheets/styles/_00_fontface.sass app/assets/stylesheets/styles/_00_variables.sass app/assets/stylesheets/styles/_00_global.sass app/assets/stylesheets/styles/_10_layout.sass app/assets/stylesheets/styles/_10_typography.sass app/assets/stylesheets/styles/_20_animations.sass app/assets/stylesheets/styles/_20_buttons.sass app/assets/stylesheets/styles/_20_icons.sass app/assets/stylesheets/styles/_20_links.sass app/assets/stylesheets/styles/_30_footer.sass app/assets/stylesheets/styles/_30_nav.sass app/assets/stylesheets/styles/_40_home.sass
 		echo "*** Converting application.css file to a sass file ***"
 		mv app/assets/stylesheets/application.css app/assets/stylesheets/application.css.sass
 		echo "*** Import newly generated sass files into application.css.sass ***"
